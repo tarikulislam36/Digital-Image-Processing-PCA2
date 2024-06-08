@@ -1,4 +1,4 @@
-img = imread('dog.jpg');
+img = imread('lab', 'jpg');
 		grayIMG = im2gray(img);
 		levels = [128, 64, 32, 16, 8];
 		figure;
